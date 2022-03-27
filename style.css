@@ -1,0 +1,175 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+
+
+html {
+  height:100%;
+}
+
+body {
+  margin:0;
+}
+.nav-link{
+  color: alicebluez;
+}
+
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, rgb(200, 226, 236) 50%, rgba(52, 186, 219, 0.486) 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+
+  
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+
+
+
+
+
+.myMargin{
+  margin: 20px;
+}
+
+.centered {
+  position: absolute;
+  top: 14%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  color:rgb(9, 77, 139);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 55px;
+}
+
+.center{
+  position:absolute;
+  top:20%;
+  left:35%;
+  width:100%;
+  
+}
+
+.center1{
+   position: absolute;
+   top: 20%;
+   left:35%;
+   right: 40%;
+  width:100%;
+   
+}
+nav .navbar-nav li a{
+  color: rgb(17, 14, 14) !important;
+  }
+
+.clearfix{
+
+  font-family:Copperplate;
+  color:rgb(85, 23, 126);
+  
+}
+
+.clearfix h1{
+  color:rgb(89, 16, 107);
+  font-family:Times New Roman;
+}
+
+.h4{
+  color:rgb(105, 1, 165);
+  text-align: justify;
+}
+
+.col-lg-4.col-md-8{
+  color:rgb(111, 2, 133)
+}
+
+
+
+.elementNAME {
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+a:hover {
+  background-color: rgb(107, 215, 241);
+}
+.meta{
+  margin-left: 10%;
+}
+.navbar-nav > li{
+  margin-left:30px;
+  margin-right:30px;
+}
+.login{
+  float:inline-end;
+  border:3px solid rgb(153, 222, 250);
+  border-radius: 1cm;
+  background-color: rgb(157, 239, 250);
+  color:black;
+  height:35.5em;
+  
+  padding: 40px;
+  
+  margin-left:40%;
+  width: 300px;
+}
+.login h2{
+  text-align: center;
+}
+.login #submit{
+  width: 100%;
+  height:1.8em;
+  color:white;
+  background-color:dodgerblue;
+  border: 1px solid rgb(31, 245, 191);
+}
+.xyz{
+  margin-left: 10%;
+  margin-right: 2%;
+  text-align: right;   ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
